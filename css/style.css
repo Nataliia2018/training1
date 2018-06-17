@@ -1,0 +1,46 @@
+:root{
+    --w:960px;
+}
+.wrapper{
+    width: var(--w);
+    margin: auto;
+    background: rgb(111, 220, 240);
+    color:#800;
+    /* text-align: center; */
+}
+header {
+    background: rgb(218, 164, 194);
+    min-height: 150px;
+}
+main {
+    background: #afdb34;
+    font-size: 0;
+    padding: 0 20px;
+}
+aside {
+    background: #1e9088;
+    min-height: 350px;
+    width: calc(20% - 10px);
+    display: inline-block;
+    font-size: 18px;
+    margin-right: 10px;
+}
+section {
+    background: rgb(247, 10, 30);
+    min-height: 350px;
+    width: calc(40% - 10px);
+    display: inline-block;
+    font-size: 16px;
+    margin-right: 10px;
+}
+section + section {
+    background: rgb(187, 33, 105);
+    min-height: 350px;
+    width: calc (40% - 1px);
+    display: inline-block;
+    font-size: 16px;
+}
+footer {
+    background: rgb(218, 164, 194);
+    min-height: 150px;
+}

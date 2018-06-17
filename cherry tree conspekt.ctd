@@ -115,7 +115,7 @@ JavaScript
 			<rich_text foreground="#808080">&gt;</rich_text>
 		</node>
 	</node>
-	<node custom_icon_id="1" foreground="" is_bold="False" name="Visual Studio Code" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1528877316.43" ts_lastsave="1528877355.8" unique_id="15">
+	<node custom_icon_id="1" foreground="" is_bold="False" name="Visual Studio Code" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1528877316.43" ts_lastsave="1528964624.93" unique_id="15">
 		<rich_text></rich_text>
 		<node custom_icon_id="0" foreground="" is_bold="False" name="Open" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1528877367.62" ts_lastsave="1528880421.04" unique_id="16">
 			<rich_text>сode .       - открыть в текушей папке (команда для GitBash)
@@ -127,6 +127,14 @@ JavaScript
 			<rich_text>сode .       - открыть в текушей папке (команда для GitBash)
 ./   - выскочит автодополнение (показывает пути ко всем объектам в текущей директории)
 ../   - выскочит автодополнение (показывает пути ко всем объектам на одну директорию выше)
+</rich_text>
+		</node>
+		<node custom_icon_id="0" foreground="" is_bold="False" name="format" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1528963938.95" ts_lastsave="1528963945.42" unique_id="20">
+			<rich_text>shift+alt+f - форматирование док-тов html, css и др док-то в VSC (чтобы правильно располагались строки во всех записях)</rich_text>
+		</node>
+		<node custom_icon_id="0" foreground="" is_bold="False" name="обновить страницу браузера" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1528964624.93" ts_lastsave="1528964630.98" unique_id="21">
+			<rich_text>ctrl+f5 - принудительно обновляет не только саму страницу браузера, но и кэш
+Если в редакторе біла допущена ошибка, поздно обнаружена и в кеше она все еще сохранена, в браузере она будет отображаться, и при просмотре кода это можно увидеть. 
 </rich_text>
 		</node>
 	</node>
